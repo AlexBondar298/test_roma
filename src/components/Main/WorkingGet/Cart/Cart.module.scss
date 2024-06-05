@@ -1,0 +1,35 @@
+@import "../../../../scss/shared/mixins.scss";
+@import "../../../../scss/shared/variables.scss";
+
+.workingGet__card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  align-items: center;
+  padding: 20px;
+  flex-basis: 370px;
+  border-radius: 16px;
+  background: $white;
+  img {
+    max-width: 70px;
+    width: 100%;
+    max-height: 70px;
+  }
+  @media (max-width: $tablet) {
+    flex-basis: 242px;
+  }
+  @media (max-width: $mobile) {
+    flex-basis: 344px;
+  }
+}
+.card__title,
+.card__position {
+  -webkit-line-clamp: 1; /* Число отображаемых строк */
+  display: -webkit-box; /* Включаем флексбоксы */
+  -webkit-box-orient: vertical; /* Вертикальная ориентация */
+  overflow: hidden; /* Обрезаем всё за пределами блока */
+}
+.card__info {
+  display: flex;
+  flex-direction: column;
+}

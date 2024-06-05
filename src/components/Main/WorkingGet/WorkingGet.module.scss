@@ -1,0 +1,23 @@
+@import "../../../scss/shared/mixins.scss";
+@import "../../../scss/shared/variables.scss";
+
+.workingGet__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workingGet__list {
+  display: flex;
+  justify-content: center;
+  gap: 29px;
+  flex-wrap: wrap;
+  @media (max-width: $mobile) {
+    gap: 16px;
+  }
+}
+.workingGet__btn {
+  margin-top: 50px;
+  button {
+    width: 120px;
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "image": "card_1.jpg",
+    "alt": "foto",
+    "title": "Salvador Stewart Flynn Thomas Salva Salve...",
+    "position": "Leading specialist of the department of cent...",
+    "email": "frontend_develop@gmail.com",
+    "phone": "+38 (098) 278 44 24"
+  },
+  {
+    "image": "card_2.jpg",
+    "alt": "foto",
+    "title": "Takamaru Ayako Jurrien",
+    "position": "Lead Independent Director",
+    "email": "Takamuru@gmail.com",
+    "phone": "+38 (098) 278 90 24"
+  },
+  {
+    "image": "card_3.jpg",
+    "alt": "foto",
+    "title": "Ilya",
+    "position": "Co-Founder and CEO",
+    "email": "Ilya_founder@gmail.com",
+    "phone": "+38 (098) 235 44 24"
+  },
+  {
+    "image": "card_4.jpg",
+    "alt": "foto",
+    "title": "Alexandre",
+    "position": "Lead Independent Director",
+    "email": "Alexandr_develop@gmail.com",
+    "phone": "+38 (098) 198 44 24"
+  },
+  {
+    "image": "card_5.jpg",
+    "alt": "foto",
+    "title": "Winny",
+    "position": "Former Senior Director",
+    "email": "Winny_develop@gmail.com",
+    "phone": "+38 (098) 278 22 88"
+  },
+  {
+    "image": "card_6.jpg",
+    "alt": "foto",
+    "title": "Simon",
+    "position": "President of Commerce",
+    "email": "Simon@gmail.com",
+    "phone": "+38 (098) 278 44 00"
+  }
+]

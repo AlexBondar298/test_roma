@@ -1,0 +1,135 @@
+@import "../../../scss/globals.scss";
+
+.workingPost {
+  padding-bottom: 100px;
+}
+.formGroup {
+  // border:1px red solid;
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  &:nth-child(1) {
+    gap: 50px;
+    margin-bottom: 43px;
+
+    font-weight: 400;
+    color: $color-placeholder;
+    &::after {
+      content: "+38 (XXX) XXX - XX - XX";
+      position: absolute;
+      left: 16px;
+      bottom: -18px;
+      font-size: 12px;
+      line-height: 117%;
+    }
+
+    & input {
+      // display: flex;
+      border-radius: 4px;
+      border: 1px solid #d0cfcf;
+      padding: 13px 15px;
+      outline: none;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 162%;
+      font-weight: 400;
+      font-size: 16px;
+    }
+    & input::placeholder {
+      color: $color-placeholder;
+    }
+  }
+  &:nth-child(2) {
+    label {
+      text-align: left;
+    }
+  }
+}
+.radioGroup {
+  margin-top: 10px; //11px
+  display: flex;
+  flex-direction: column;
+  gap: 7px 0px;
+  font-size: 16px;
+  label {
+    display: flex;
+    // border: 1px red solid;
+  }
+  input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: auto 12px auto 0px;
+    background-clip: content-box;
+    border: 1px solid #00bdd3;
+    border-radius: 50%;
+    background-color: $white;
+  }
+  input[type="radio"]:checked {
+    background-color: #00bdd3;
+  }
+}
+
+//---------------------
+
+.inputFile {
+  margin-top: 47px;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #d0cfcf;
+  border-left: none;
+  height: 54px;
+}
+.inputFileBtn {
+  position: relative;
+  min-width: 83px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid $black-87;
+  padding: 13px 15px;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  transition: background-color 0.2s;
+}
+.inputFileText {
+  display: inline-block;
+  color: $color-placeholder;
+  margin-left: 15px;
+}
+.inputFile input[type="file"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+.inputFileBtn:hover {
+  background-color: $color-placeholder;
+}
+
+.workingPostButton {
+  display: flex;
+  justify-content: center;
+}
+.submitBtn {
+  color: rgba(255, 255, 255, 0.87);
+  background: #b4b4b4;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: translateY(-3px);
+    color: $black-87;
+  }
+}
